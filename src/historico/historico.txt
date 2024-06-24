@@ -1,0 +1,102 @@
+Data: 2024-06-23 15:42:48, Valor: 5000,00, Resultado: 27250,00, Opção: 1
+Data: 2024-06-23 15:42:59, Valor: 5000,00, Resultado: 917,43, Opção: 4
+Data: 2024-06-24 12:39:39, Valor: 5,00, Resultado: 27,19, Opção: 1
+Data: 2024-06-24 12:59:07, Valor: 8,00, Resultado: 43,50, Opção: 1
+Data: 2024-06-24 13:00:40, Valor: 4,00, Resultado: 3,74, Opção: 2
+Data: 2024-06-24 13:01:59, Valor: 8,00, Resultado: 8,55, Opção: 5
+Data: 2024-06-24 13:08:17, Valor: 8,00, Resultado: 1,16, Opção: 12
+Data: 2024-06-24 13:14:21, Valor: 4,00, Resultado: 0,74, Opção: 7
+Data: 2024-06-24 13:14:31, Valor: 4,00, Resultado: 21,75, Opção: 1
+Data: 2024-06-24 13:17:09, Valor: 100,00, Resultado: 18,39, Opção: 7
+Data: 2024-06-24 13:17:55, Valor: 100,00, Resultado: 543,72, Opção: 1
+Data: 2024-06-24 13:18:20, Valor: 100,00, Resultado: 18,39, Opção: 7
+Data: 2024-06-24 13:20:10, Valor: 10,00, Resultado: 9,35, Opção: 2
+Data: 2024-06-24 13:41:38, Valor: 50,00, Resultado: 271,86, Opção: 1
+Data: 2024-06-24 13:43:09, Valor: 5,00, Resultado: 27,19, Opção: 1
+Data: 2024-06-24 13:46:50, Valor: 1,00, Resultado: 5,44, Opção: 1
+Data: 2024-06-24 13:47:40, Valor: 1,00, Resultado: 0,18, Opção: 7
+Data: 2024-06-24 13:47:54, Valor: 5,00, Resultado: 0,92, Opção: 7
+Data e Hora: 24/06/2024 13:55:30
+Moeda de Origem: USD
+Valor de Origem: 5.0
+Moeda de Destino: BRL
+Valor de Destino: 27.186
+
+Data e Hora: 24/06/2024 13:55:53
+Moeda de Origem: BRL
+Valor de Origem: 5.0
+Moeda de Destino: USD
+Valor de Destino: 0.9195909659383507
+
+Data e Hora: 24/06/2024 13:57:01
+Moeda de Origem: USD
+Valor de Origem: 8.0
+Moeda de Destino: ARS
+Valor de Destino: 7248.0
+
+Data e Hora: 24/06/2024 13:57:10
+Moeda de Origem: ARS
+Valor de Origem: 8.0
+Moeda de Destino: USD
+Valor de Destino: 0.008830022075055188
+
+Data e Hora: 24/06/2024 14:07:09
+Moeda de Origem: CLP
+Valor de Origem: 100.0
+Moeda de Destino: USD
+Valor de Destino: 0.10676168741544474
+
+Data e Hora: 24/06/2024 14:07:16
+Moeda de Origem: USD
+Valor de Origem: 100.0
+Moeda de Destino: CLP
+Valor de Destino: 93666.56
+
+Data e Hora: 24/06/2024 14:35:57
+Moeda de Origem: USD
+Valor de Origem: 100.0
+Moeda de Destino: BRL
+Valor de Destino: 543.72
+
+Data e Hora: 24/06/2024 14:36:06
+Moeda de Origem: BRL
+Valor de Origem: 100.0
+Moeda de Destino: USD
+Valor de Destino: 18.391819318767013
+
+Data e Hora: 24/06/2024 15:23:44
+Moeda de Origem: USD
+Valor de Origem: 800.0
+Moeda de Destino: CLP
+Valor de Destino: 749332.48
+
+Data e Hora: 24/06/2024 15:23:55
+Moeda de Origem: BOB
+Valor de Origem: 100.0
+Moeda de Destino: USD
+Valor de Destino: 14.452746744518796
+
+Data e Hora: 24/06/2024 15:24:04
+Moeda de Origem: CLP
+Valor de Origem: 120.0
+Moeda de Destino: USD
+Valor de Destino: 0.12811402489853368
+
+Data e Hora: 24/06/2024 15:44:15
+Moeda de Origem: EUR
+Valor de Origem: 100.0
+Moeda de Destino: USD
+Valor de Destino: 106.90613641223005
+
+Data e Hora: 24/06/2024 15:44:26
+Moeda de Origem: USD
+Valor de Origem: 100.0
+Moeda de Destino: EUR
+Valor de Destino: 93.54
+
+Data e Hora: 24/06/2024 16:51:11
+Moeda de Origem: USD
+Valor de Origem: 50.0
+Moeda de Destino: EUR
+Valor de Destino: 46.77
+
