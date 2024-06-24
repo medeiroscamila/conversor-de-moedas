@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        HashMap<String, Double> rates = new HashMap<>();
+        HashMap<String, Double> rates;
 
         try {
             rates = RateAPI.getRates();
@@ -21,9 +21,8 @@ public class App {
         }
 
         System.out.println("\n---------------------------------------------");
-        System.out.println("\nSeja Bem-vindo (a) ao Conversor de Moedas  :]");
+        System.out.println("\nSeja Bem-vindo (a) ao Conversor de Moedas  :)");
         System.out.println("\n---------------------------------------------");
-
 
         while (true) {
             System.out.println("\nOpções de conversão:");
@@ -54,66 +53,53 @@ public class App {
 
             System.out.println("\nDigite o valor a ser convertido:");
             double amount = scanner.nextDouble();
-            double result = 0;
-            String fromCurrency = "";
-            String toCurrency = "";
-
-            switch (option) {
-                case 1:
+            double result;
+            String fromCurrency;
+            String toCurrency = switch (option) {
+                case 1 -> {
                     fromCurrency = "USD";
-                    toCurrency = "BRL";
-                    result = Converter.convert(amount, rates.get(fromCurrency), rates.get(toCurrency));
-                    break;
-                case 2:
+                    yield "BRL";
+                }
+                case 2 -> {
                     fromCurrency = "USD";
-                    toCurrency = "EUR";
-                    result = Converter.convert(amount, rates.get(fromCurrency), rates.get(toCurrency));
-                    break;
-                case 3:
+                    yield "EUR";
+                }
+                case 3 -> {
                     fromCurrency = "USD";
-                    toCurrency = "ARS";
-                    result = Converter.convert(amount, rates.get(fromCurrency), rates.get(toCurrency));
-                    break;
-                case 4:
+                    yield "ARS";
+                }
+                case 4 -> {
                     fromCurrency = "USD";
-                    toCurrency = "BOB";
-                    result = Converter.convert(amount, rates.get(fromCurrency), rates.get(toCurrency));
-                    break;
-                case 5:
+                    yield "BOB";
+                }
+                case 5 -> {
                     fromCurrency = "USD";
-                    toCurrency = "CLP";
-                    result = Converter.convert(amount, rates.get(fromCurrency), rates.get(toCurrency));
-                    break;
-                case 6:
+                    yield "CLP";
+                }
+                case 6 -> {
                     fromCurrency = "BRL";
-                    toCurrency = "USD";
-                    result = Converter.convert(amount, rates.get(fromCurrency), rates.get(toCurrency));
-                    break;
-                case 7:
+                    yield "USD";
+                }
+                case 7 -> {
                     fromCurrency = "EUR";
-                    toCurrency = "USD";
-                    result = Converter.convert(amount, rates.get(fromCurrency), rates.get(toCurrency));
-                    break;
-                case 8:
+                    yield "USD";
+                }
+                case 8 -> {
                     fromCurrency = "ARS";
-                    toCurrency = "USD";
-                    result = Converter.convert(amount, rates.get(fromCurrency), rates.get(toCurrency));
-                    break;
-                case 9:
+                    yield "USD";
+                }
+                case 9 -> {
                     fromCurrency = "BOB";
-                    toCurrency = "USD";
-                    result = Converter.convert(amount, rates.get(fromCurrency), rates.get(toCurrency));
-                    break;
-                case 10:
+                    yield "USD";
+                }
+                case 10 -> {
                     fromCurrency = "CLP";
-                    toCurrency = "USD";
-                    result = Converter.convert(amount, rates.get(fromCurrency), rates.get(toCurrency));
-                    break;
-                default:
-                    System.out.println("Opção inválida.");
-                    continue;
-            }
+                    yield "USD";
+                }
+                default -> throw new IllegalStateException("Unexpected value: " + option);
+            };
 
+            result = Converter.convert(amount, rates.get(fromCurrency), rates.get(toCurrency));
             System.out.println("Resultado: " + result);
             Logger.logConversion(amount, result, fromCurrency, toCurrency);
         }

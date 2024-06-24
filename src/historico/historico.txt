@@ -100,3 +100,45 @@ Valor de Origem: 50.0
 Moeda de Destino: EUR
 Valor de Destino: 46.77
 
+Data e Hora: 24/06/2024 17:06:14
+Moeda de Origem: USD
+Valor de Origem: 10.0
+Moeda de Destino: CLP
+Valor de Destino: 9366.656
+
+Data e Hora: 24/06/2024 17:24:35
+Moeda de Origem: USD
+Valor de Origem: 1020.0
+Moeda de Destino: CLP
+Valor de Destino: 955398.912
+
+Data e Hora: 24/06/2024 17:24:43
+Moeda de Origem: BOB
+Valor de Origem: 100.0
+Moeda de Destino: USD
+Valor de Destino: 14.452746744518796
+
+Data e Hora: 24/06/2024 17:27:25
+Moeda de Origem: USD
+Valor de Origem: 100.0
+Moeda de Destino: EUR
+Valor de Destino: 93.54
+
+Data e Hora: 24/06/2024 17:27:31
+Moeda de Origem: USD
+Valor de Origem: 600.0
+Moeda de Destino: CLP
+Valor de Destino: 561999.36
+
+Data e Hora: 24/06/2024 17:46:28
+Moeda de Origem: CLP
+Valor de Origem: 200.0
+Moeda de Destino: USD
+Valor de Destino: 0.21352337483088948
+
+Data e Hora: 24/06/2024 17:46:39
+Moeda de Origem: USD
+Valor de Origem: 200.0
+Moeda de Destino: CLP
+Valor de Destino: 187333.12
+
